@@ -20,6 +20,7 @@
     "start": "ng serve",
     "prebuild:libs": "npm run clean:dist",
     "build:libs": "ng build core && ng build keepalive",
+    "build:core": "ng build core",
     "prebuild:docs": "npm run build:libs",
     "build:docs": "cd ./projects/docs && npm link ../../dist/core && npm link ../../dist/keepalive && ng build docs --base-href=/ng2-idle/",
     "pretest": "npm run build:libs",
