@@ -1,7 +1,7 @@
 {
-  "name": "ng-idle",
+  "name": "@dustfoundation/ngx-idle-core",
   "description": "A module for responding to idle users in Angular applications.",
-  "version": "12.0.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moribvndvs/ng2-idle.git"
@@ -89,10 +89,5 @@
     "rimraf": "^3.0.2",
     "ts-node": "~7.0.0",
     "typescript": "~4.6.4"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
