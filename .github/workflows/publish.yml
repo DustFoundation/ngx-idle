@@ -22,7 +22,7 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Build
-        run: npm run build
+        run: npm run build:core
 
       - name: Publish
         run: npm publish ./dist/core --access public
